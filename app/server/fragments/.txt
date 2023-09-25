@@ -1,0 +1,37 @@
+Hooks:
+
+    Contexto Principal: Hooks são uma parte fundamental de muitos frameworks e bibliotecas, como o React (React Hooks) e o WordPress (WordPress Hooks). Eles também podem ser usados em outros contextos, como em frameworks de backend.
+    Finalidade: Hooks são funções que permitem que você "enganche" ou "intercepte" eventos ou estados em um sistema e adicione funcionalidades personalizadas. Eles são usados principalmente para estender ou modificar o comportamento de um sistema sem modificar diretamente seu código-fonte principal.
+    Exemplo: No React, você pode usar hooks como o useState para gerenciar o estado local de um componente funcional, ou o useEffect para executar efeitos colaterais após a renderização de um componente.
+
+Middlewares:
+
+    Contexto Principal: Middlewares são frequentemente usados em aplicativos web e servidores, especialmente em frameworks como o Express.js (Node.js) e o Django (Python).
+    Finalidade: Middlewares são funções intermediárias que processam ou manipulam solicitações HTTP antes que elas atinjam o controlador principal ou rota final. Eles são usados para adicionar funcionalidades como autenticação, autorização, logging, validação de dados, entre outros.
+    Exemplo: No Express.js, um middleware pode ser usado para verificar se um usuário está autenticado antes de permitir o acesso a determinadas rotas.
+
+Utils (Utilitários):
+
+    Contexto Principal: Os utilitários, também chamados de "utils", são geralmente usados em todo o código de um projeto, independentemente do contexto (frontend, backend, ou outros).
+    Finalidade: Os utilitários contêm funções reutilizáveis que realizam tarefas específicas, como formatação de datas, manipulação de strings, cálculos matemáticos e muito mais. Eles são criados para evitar a duplicação de código e tornar o código mais organizado.
+    Exemplo: Um utilitário pode conter uma função que converte uma data do formato Unix timestamp para um formato legível por humanos. Essa função pode ser usada em várias partes do código onde for necessário formatar datas.
+    Em resumo, a principal diferença entre esses conceitos está na finalidade e no contexto de uso:
+
+Config (Configuração):
+
+    Finalidade: A pasta "config" geralmente é usada para armazenar arquivos de configuração que contêm variáveis de ambiente, configurações de aplicativos e outras informações de configuração. Isso permite que você centralize as configurações do seu aplicativo em um local específico, facilitando a personalização e o gerenciamento.
+    Exemplo: Você pode ter um arquivo de configuração que define a porta do servidor, as credenciais do banco de dados, chaves de API e outras configurações relacionadas ao ambiente do seu aplicativo.
+
+Security (Segurança):
+
+    Finalidade: A pasta "security" é geralmente usada para armazenar arquivos relacionados à segurança do aplicativo. Isso pode incluir configurações de autenticação, autorização, certificados SSL, políticas de segurança, ou até mesmo arquivos relacionados à proteção contra vulnerabilidades de segurança.
+    Exemplo: Você pode ter um arquivo de configuração de políticas de segurança que define quais tipos de solicitações HTTP são permitidos ou proibidos, ou um arquivo com funções de middleware de autenticação para proteger rotas sensíveis.
+
+
+
+
+Hooks são usados para adicionar funcionalidades personalizadas a sistemas e geralmente estão associados a bibliotecas ou frameworks específicos.
+
+Middlewares são usados para processar solicitações HTTP em aplicativos web ou servidores e são mais comuns em frameworks de backend.
+
+Utils (Utilitários) são funções reutilizáveis que realizam tarefas comuns em todo o código do projeto, independentemente do contexto.
