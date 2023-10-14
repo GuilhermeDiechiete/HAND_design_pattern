@@ -1,0 +1,8 @@
+{
+    "material-icon-theme.folders.associations": {
+        "database": "rules",
+        "fragments": "Plugin",
+        "security": "rules",
+        "entities": "rules"
+    }
+}

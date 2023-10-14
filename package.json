@@ -1,0 +1,12 @@
+{
+  "name": "cdf_design_pattern",
+  "version": "1.0.0",
+  "description": "CDF - Controllers, Database, Fragments, arquitetura para projetos Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
