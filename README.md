@@ -36,5 +36,11 @@ A pasta <strong> access </strong> responsavel por conter todo o CRUD do projeto,
 
 ## Agora cada a palavra mão que foi mencionada? Não foi dita até aqui.
 
-Agora quando você for fazer um projeto, imagine o handling (mecanico) trabalhando, como assim? Imagina ele na oficina pegando varias coisas da caixa de ferramenta toda hora, indo no manual conferir dados e alterar, você percebeu que tudo que ele faz, ele está fazendo com as mãos, agora imagina os handlings com mãos pegando tudo o que é necessario para entregar a resposta para o cliente.
+Agora quando você for fazer um projeto, imagine o handling (mecanico) trabalhando, como assim? 
+
+Imagina ele na oficina pegando varias coisas da caixa de ferramenta toda hora, indo no manual conferir dados e alterar, você percebeu que tudo que ele faz, ele está fazendo com as mãos, agora imagina os handlings com mãos pegando tudo o que é necessario para manipular os dados e entregar a resposta para o cliente.
+
+### Espero que tenham entendido e que gostem de usar ! 
+
+
 
