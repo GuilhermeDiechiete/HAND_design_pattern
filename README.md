@@ -14,17 +14,22 @@ A pasta <strong> routes </strong> é responsavel por conter todas as rotas para 
 
 - Exemplo: Seria o caminho que o cliente pegou até chegar no balcão de atendentes da oficina.
 
+### Controllers
 A pasta <strong> controllers </strong> é responsavel por pegar a requisição, direcionar para um handling e enviar a resposta para o usuário depois de manipulada.
 
 - Exemplo: Seria o atendente pegando o veiculo e mandando para o mecanico, apos a manipulação do veiculo, devolve a resposta ao cliente.
 
+### Handlings
 A pasta <strong> handlings </strong> é responsavel pela manipulação dos dados, como, alterar dados, validar, CRUD (no banco de dados).
+
 - Exemplo: É o mecanico manipulando o veiculo do cliente.
-  
+
+### Fragments 
 A pasta <strong> fragments </strong> é responsavel por conter pedações de codigos necessarios para fazer a manipulação, como criptografar senhas, gerar tokens, formatar a mensagem.
 
 - Exemplo: Sim, temos essa pasta que não foi mencionada la no inicio, essa pasta é tudo para o mecanico, sim, é a maleta de ferramentas, nessa pasta contem todas as cheves necessarias para o mecanico efetuar a manipulação no veiculo.
 
+### Access
 A pasta <strong> access </strong> responsavel por conter todo o CRUD do projeto, como buscar dados, salvar, alterar e excluir.
 
 - Exemplo: Essa pasta seria o manual do mecanico, onde ele busca e guarda informações do veiculo.
